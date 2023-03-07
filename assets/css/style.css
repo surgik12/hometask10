@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;   
+}
+
+*{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+}
+
+.component{
+    min-width:  576px;
+    max-width: 992px;
+    width: 55vw;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    height: auto;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 0px 5px gray;
+}
+
+.main{
+    text-align: center;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px gray;
+}
+
+.font{
+    font-weight: bold !important;
+}
+
+
+.main > p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.lego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100vw;
+}
+
+.threecolumn{
+    display: flex;
+    flex-basis: auto;
+    text-align: center;
+    gap: 40px;
+}
+
+.threecolumn > div{
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px gray;
+    width: 150px;
+    height: 100px;
+}
+
+footer{
+    text-align: justify;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    object-fit: cover;
+    box-shadow: 0px 0px 5px gray;
+
+}
+
+button{
+    width: 100%;
+    padding: 7px;
+    margin: 7px;
+    height: 12%;
+    border-radius: 7px;
+    background-color: rgb(10, 187, 89);
+    color: white;
+    border: 0px;
+}
+
+p{
+    margin: auto;
+    padding: 7px;
+}
+
+footer > p:first-child{
+    padding-top: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer > p:last-child{
+    padding-top: 7px;
+}
+
+.number{
+    color: rgb(10, 187, 89);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 0px 0px 0px;
+}
+
+div > p:last-child{
+    color: rgb(168, 168, 168);
+    font-size: 17px;
+}
